@@ -7,7 +7,7 @@ import android.widget.Toast;
 import com.uniquestudio.library.CircleCheckBox;
 
 public class MainActivity extends AppCompatActivity {
-    CircleCheckBox checkBox;
+   public CircleCheckBox checkBox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

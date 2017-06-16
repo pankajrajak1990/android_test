@@ -19,14 +19,14 @@ import android.view.animation.LinearInterpolator;
  * Created by CoXier on 2016/7/26.
  */
 public class CircleCheckBox extends MaterialCheckBox {
-    private static final String TAG = "CircleCheckBox";
+   // private static final String TAG = "CircleCheckBox";
     private Paint mTickPaint, mTickBackgroundPaint, mCircleBorderPaint, mInnerCircleBackgroundPaint;
     private Path mArcPath;
     private Path mLeftPath, mRightPath;
     private PathMeasure mLeftMeasure, mRightMeasure;
     private int mTickWidth, mBorderWidth;
     private int mTickColor, mBorderColor, mBackgroundColor;
-    private int mWidth, mHeight, mRadius;
+    public int mWidth, mHeight, mRadius;
     private int mDuration;
     private boolean mChecked;
     private Point mCenterPoint;
